@@ -1,0 +1,165 @@
+.review {
+  position: relative;
+  margin-bottom: 200px;
+
+  &__title {
+    margin-bottom: 40px;
+    border-bottom: 1px solid var(--color-light);
+    padding-bottom: 24px;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-light);
+
+    @include small-tablet {
+      font-size: 36px;
+    }
+
+    @include mobile {
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+
+  &__controls {
+    position: absolute;
+    right: max(15px, calc((100% - var(--content-width)) / 2));
+    top: 0;
+    display: flex;
+    align-items: center;
+
+    @include small-tablet {
+      right: max(40px, calc((100% - var(--content-width)) / 2));
+    }
+
+    @include mobile {
+      position: static;
+      justify-content: center;
+      margin-top: 16px;
+    }
+  }
+
+  &__nav-button {
+    position: static;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border: 1px solid var(--color-light);
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    background-color: transparent;
+    transition: background-color var(--transition-default);
+
+    &::after {
+      display: none;
+    }
+
+    svg {
+      fill: var(--color-light);
+      transition: fill var(--transition-default);
+    }
+
+    @include hover {
+      background-color: var(--color-polite-white);
+
+      svg {
+        fill: var(--color-black);
+      }
+    }
+
+    @include mobile {
+      width: 32px;
+      height: 32px;
+    }
+  }
+
+  &__pagination {
+    position: static;
+    margin: 0 16px;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--color-light);
+
+    @include mobile {
+      width: max-content;
+      font-size: 16px;
+    }
+  }
+
+  &__slider {
+    &-outer {
+      @include mobile {
+        padding: 0 15px;
+      }
+    }
+
+    &-slide {
+      max-width: 512px;
+
+      @include mobile {
+        max-width: none;
+      }
+    }
+  }
+
+  &__item {
+    position: relative;
+    border: 1px solid var(--color-light);
+    padding: 32px;
+
+    &-image-wrapper {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &-image {
+      border-bottom-right-radius: 60%;
+    }
+
+    &-names {
+      margin-bottom: 8px;
+      padding-left: 56px;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 140%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-light);
+    }
+
+    &-company {
+      margin: 0;
+      margin-bottom: 16px;
+      padding-left: 56px;
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 140%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-light);
+    }
+
+    &-descr {
+      margin: 0;
+      font-weight: 300;
+      font-size: 10px;
+      line-height: 270%;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--color-light);
+    }
+  }
+
+  @include mobile {
+    margin-bottom: 120px;
+  }
+}

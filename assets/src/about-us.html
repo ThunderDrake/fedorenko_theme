@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main">
+      @include('partials/inner-header.html', {
+        "page": "О нас"
+      })
+      @include('partials/team.html', {
+        "show_title": false
+      })
+      @include('partials/about-me-section.html')
+      @include('partials/review.html')
+      @include('partials/direction.html')
+      @include('partials/form-section.html')
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
+</html>

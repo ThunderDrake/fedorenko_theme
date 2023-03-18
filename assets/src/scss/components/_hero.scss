@@ -1,0 +1,67 @@
+.hero {
+  margin-bottom: 200px;
+  padding-top: 72px;
+
+  &__flex-container {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    @media screen and (max-width: 1000px) {
+      flex-wrap: wrap;
+      margin-bottom: 100px;
+    }
+  }
+
+  &__title {
+    font-size: 64px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--color-light);
+
+    @media screen and (max-width: 1000px) {
+      margin-bottom: 16px;
+      font-size: 48px;
+    }
+
+    @media screen and (max-width: 600px) {
+      font-size: 24px;
+    }
+  }
+
+  &__small-text {
+    max-width: 425px;
+    font-size: 14px;
+    line-height: 250%;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-light);
+
+    @media screen and (max-width: 600px) {
+      font-size: 12px;
+    }
+  }
+
+  &__picture-block {
+    position: relative;
+  }
+
+  &__button {
+    position: absolute;
+    left: calc(100% - 300px);
+    top: -88px;
+
+    @media screen and (max-width: 600px) {
+      left: calc(100% - 150px);
+      top: -60px;
+      width: 120px;
+      height: 120px;
+    }
+  }
+
+  &__picture {
+    width: 100%;
+  }
+}

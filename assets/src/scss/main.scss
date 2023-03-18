@@ -1,0 +1,37 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/ui";
+@import "./components/header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/burger";
+@import "./components/cart-widget";
+@import "./components/breadcrumbs";
+@import "./components/burger-menu";
+@import "./components/hero";
+@import "./components/direction";
+@import "./components/team";
+@import "./components/review";
+@import "./components/gallery";
+@import "./components/commerc";
+@import "./components/form-section";
+@import "./components/footer";
+@import "./components/package";
+@import "./components/form";
+@import "./components/inner-header";
+@import "./components/breadcrumbs-block";
+@import "./components/contacts-section";
+@import "./components/about-me-section";
+@import "./components/conditions-package";
+@import "./components/onemore";
+@import "./components/why-org";
+@import "./components/blinding";
+@import "./components/good-org";
+@import "./components/clab";
+@import "./components/activity-pcg";
+@import "./components/ceremony";
