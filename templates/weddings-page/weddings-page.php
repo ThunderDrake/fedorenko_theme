@@ -26,8 +26,8 @@ ct()->header();
 
   <div class="container">
     <picture>
-      <source srcset="img/weddings-pic.webp" type="image/webp">
-      <img loading="lazy" src="img/weddings-pic.png" class="weddings__picture" width="1568" height="800"
+      <source srcset="<?= ct()->get_static_url() ?>/img/weddings-pic.webp" type="image/webp">
+      <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/weddings-pic.png" class="weddings__picture" width="1568" height="800"
         alt="Красивое оформление свадьбы на фоне моря">
     </picture>
   </div>
@@ -64,7 +64,7 @@ ct()->header();
           <a href="#" class="package__button button btn-reset">
             <span class="button__text package__button-text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
@@ -72,48 +72,48 @@ ct()->header();
       <div class="package__icon-seat">
         <div class="package__icon">
           <picture>
-            <source srcset="img/prev-icon1.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon2.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon3.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon3.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon4.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon4.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon5.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon5.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon6.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon6.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon7.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon7.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon8.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon8.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon9.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon9.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon10.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon10.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon11.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon11.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
         </div>
         <div class="package__seat small-text">
@@ -122,43 +122,43 @@ ct()->header();
       </div>
       <div class="gallery__picture-block">
         <picture class="gallery__picture1">
-          <source srcset="img/gallery-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture2">
-          <source srcset="img/gallery-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
         </picture>
 
         <picture class="gallery__picture3">
-          <source srcset="img/gallery-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture4">
-          <source srcset="img/gallery-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
         </picture>
 
         <picture class="gallery__picture5">
-          <source srcset="img/gallery-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
         </picture>
 
         <picture class="gallery__picture6">
-          <source srcset="img/gallery-pic6.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
 
         <picture class="gallery__picture6--cut">
-          <source srcset="img/gallery-pic6.1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
         </picture>
 
         <picture class="gallery__picture7">
-          <source srcset="img/gallery-pic7.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic7.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
       </div>
     </div>
@@ -197,7 +197,7 @@ ct()->header();
           <a href="#" class="package__button button btn-reset">
             <span class="button__text package__button-text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
@@ -205,48 +205,48 @@ ct()->header();
       <div class="package__icon-seat">
         <div class="package__icon">
           <picture>
-            <source srcset="img/prev-icon1.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon2.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon3.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon3.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon4.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon4.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon5.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon5.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon6.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon6.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon7.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon7.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon8.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon8.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon9.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon9.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon10.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon10.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon11.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon11.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
         </div>
         <div class="package__seat small-text">
@@ -255,43 +255,43 @@ ct()->header();
       </div>
       <div class="gallery__picture-block">
         <picture class="gallery__picture1">
-          <source srcset="img/gallery-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture2">
-          <source srcset="img/gallery-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
         </picture>
 
         <picture class="gallery__picture3">
-          <source srcset="img/gallery-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture4">
-          <source srcset="img/gallery-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
         </picture>
 
         <picture class="gallery__picture5">
-          <source srcset="img/gallery-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
         </picture>
 
         <picture class="gallery__picture6">
-          <source srcset="img/gallery-pic6.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
 
         <picture class="gallery__picture6--cut">
-          <source srcset="img/gallery-pic6.1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
         </picture>
 
         <picture class="gallery__picture7">
-          <source srcset="img/gallery-pic7.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic7.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
       </div>
     </div>
@@ -330,7 +330,7 @@ ct()->header();
           <a href="#" class="package__button button btn-reset">
             <span class="button__text package__button-text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
@@ -338,48 +338,48 @@ ct()->header();
       <div class="package__icon-seat">
         <div class="package__icon">
           <picture>
-            <source srcset="img/prev-icon1.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon2.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon3.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon3.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon4.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon4.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon5.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon5.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon6.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon6.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon7.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon7.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon8.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon8.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon9.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon9.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon10.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon10.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon11.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon11.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
         </div>
         <div class="package__seat small-text">
@@ -388,43 +388,43 @@ ct()->header();
       </div>
       <div class="gallery__picture-block">
         <picture class="gallery__picture1">
-          <source srcset="img/gallery-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture2">
-          <source srcset="img/gallery-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
         </picture>
 
         <picture class="gallery__picture3">
-          <source srcset="img/gallery-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture4">
-          <source srcset="img/gallery-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
         </picture>
 
         <picture class="gallery__picture5">
-          <source srcset="img/gallery-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
         </picture>
 
         <picture class="gallery__picture6">
-          <source srcset="img/gallery-pic6.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
 
         <picture class="gallery__picture6--cut">
-          <source srcset="img/gallery-pic6.1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
         </picture>
 
         <picture class="gallery__picture7">
-          <source srcset="img/gallery-pic7.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic7.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
       </div>
     </div>
@@ -463,7 +463,7 @@ ct()->header();
           <a href="#" class="package__button button btn-reset">
             <span class="button__text package__button-text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
@@ -471,48 +471,48 @@ ct()->header();
       <div class="package__icon-seat">
         <div class="package__icon">
           <picture>
-            <source srcset="img/prev-icon1.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon2.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon3.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon3.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon4.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon4.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon5.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon5.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon6.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon6.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon7.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon7.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon8.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon8.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon9.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon9.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon10.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon10.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon11.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon11.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
         </div>
         <div class="package__seat small-text">
@@ -521,43 +521,43 @@ ct()->header();
       </div>
       <div class="gallery__picture-block">
         <picture class="gallery__picture1">
-          <source srcset="img/gallery-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture2">
-          <source srcset="img/gallery-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
         </picture>
 
         <picture class="gallery__picture3">
-          <source srcset="img/gallery-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture4">
-          <source srcset="img/gallery-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
         </picture>
 
         <picture class="gallery__picture5">
-          <source srcset="img/gallery-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
         </picture>
 
         <picture class="gallery__picture6">
-          <source srcset="img/gallery-pic6.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
 
         <picture class="gallery__picture6--cut">
-          <source srcset="img/gallery-pic6.1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
         </picture>
 
         <picture class="gallery__picture7">
-          <source srcset="img/gallery-pic7.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic7.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
       </div>
     </div>
@@ -596,7 +596,7 @@ ct()->header();
           <a href="#" class="package__button button btn-reset">
             <span class="button__text package__button-text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
@@ -604,48 +604,48 @@ ct()->header();
       <div class="package__icon-seat">
         <div class="package__icon">
           <picture>
-            <source srcset="img/prev-icon1.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon1.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon2.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon2.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon3.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon3.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon3.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon4.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon4.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon4.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon5.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon5.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon5.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon6.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon6.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon6.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon7.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon7.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon7.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon8.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon8.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon8.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon9.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon9.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon9.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon10.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon10.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon10.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
           <picture>
-            <source srcset="img/prev-icon11.webp" type="image/webp">
-            <img loading="lazy" src="img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
+            <source srcset="<?= ct()->get_static_url() ?>/img/prev-icon11.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/prev-icon11.png" class="prev-icon" width="32" height="32" alt="">
           </picture>
         </div>
         <div class="package__seat small-text">
@@ -654,43 +654,43 @@ ct()->header();
       </div>
       <div class="gallery__picture-block">
         <picture class="gallery__picture1">
-          <source srcset="img/gallery-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic1.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture2">
-          <source srcset="img/gallery-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic2.png" class="gallery__picture" width="512" height="424" alt="">
         </picture>
 
         <picture class="gallery__picture3">
-          <source srcset="img/gallery-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic3.png" class="gallery__picture" width="512" height="1040" alt="">
         </picture>
 
         <picture class="gallery__picture4">
-          <source srcset="img/gallery-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic4.png" class="gallery__picture" width="512" height="776" alt="">
         </picture>
 
         <picture class="gallery__picture5">
-          <source srcset="img/gallery-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic5.png" class="gallery__picture" width="512" height="512" alt="">
         </picture>
 
         <picture class="gallery__picture6">
-          <source srcset="img/gallery-pic6.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
 
         <picture class="gallery__picture6--cut">
-          <source srcset="img/gallery-pic6.1.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic6.1.png" class="gallery__picture" width="336" height="472" alt="">
         </picture>
 
         <picture class="gallery__picture7">
-          <source srcset="img/gallery-pic7.webp" type="image/webp">
-          <img loading="lazy" src="img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
+          <source srcset="<?= ct()->get_static_url() ?>/img/gallery-pic7.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/gallery-pic7.png" class="gallery__picture" width="512" height="336" alt="">
         </picture>
       </div>
     </div>

@@ -30,8 +30,8 @@ ct()->header();
     <div class="contacts-section__container container">
       <div class="contacts-section__image-wrapper">
         <picture>
-          <source srcset="img/contacts-section__image.webp" type="image/webp">
-          <img loading="lazy" src="img/contacts-section__image.jpg" class="contacts-section__image" width="952"
+          <source srcset="<?= ct()->get_static_url() ?>/img/contacts-section__image.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/contacts-section__image.jpg" class="contacts-section__image" width="952"
             height="688" alt="Президиум на стеклянном полу">
         </picture>
       </div>
@@ -45,11 +45,11 @@ ct()->header();
               class="contacts-section__button contacts-section__button--telegram button button--no-fill btn-reset">
               <span class="button__text"><strong>Открыть</strong> Telegram</span>
               <svg class="button__arrow" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </a>
             <svg class="contacts-section__button-icon" width="28" height="28">
-              <use xlink:href="img/sprite.svg#tg-icon"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#tg-icon"></use>
             </svg>
           </div>
           <div class="contacts-section__button-wrapper">
@@ -57,11 +57,11 @@ ct()->header();
               class="contacts-section__button contacts-section__button--whatsapp button button--no-fill btn-reset">
               <span class="button__text"><strong>Открыть</strong> WhatsApp</span>
               <svg class="button__arrow" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </a>
             <svg class="contacts-section__button-icon" width="28" height="28">
-              <use xlink:href="img/sprite.svg#wa-icon"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#wa-icon"></use>
             </svg>
           </div>
         </div>
@@ -109,7 +109,7 @@ ct()->header();
           <button class="button btn-reset form__btn">
             <span class="button__text">Отправить заявку</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </button>
         </div>

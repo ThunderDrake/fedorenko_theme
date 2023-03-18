@@ -32,12 +32,12 @@ ct()->header();
       <div class="team__content">
         <div class="team__picture-block">
           <picture>
-            <source srcset="img/team.webp" type="image/webp">
-            <img loading="lazy" src="img/team.png" class="team__picture" width="512" height="996"
+            <source srcset="<?= ct()->get_static_url() ?>/img/team.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/team.png" class="team__picture" width="512" height="996"
               alt="Екатерина Федоренко сидит на фоне красивых белых цветов">
           </picture>
           <svg class="team__sign">
-            <use xlink:href="img/sprite.svg#sign"></use>
+            <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#sign"></use>
           </svg>
         </div>
         <div class="team__story">
@@ -90,7 +90,7 @@ ct()->header();
             <a href="" class="team__button button button--no-fill">
               <span class="button__text">подробнее</span>
               <svg class="button__arrow" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </a>
           </div>
@@ -136,15 +136,15 @@ ct()->header();
         </div>
         <div class="about-me__big-image">
           <picture>
-            <source srcset="img/about-me/about-me__image-1.webp" type="image/webp">
-            <img loading="lazy" src="img/about-me/about-me__image-1.jpg" width="952" height="776"
+            <source srcset="<?= ct()->get_static_url() ?>/img/about-me/about-me__image-1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/about-me/about-me__image-1.jpg" width="952" height="776"
               alt="Три девушки стоят в листве">
           </picture>
         </div>
         <div class="about-me__small-image">
           <picture>
-            <source srcset="img/about-me/about-me__image-2.webp" type="image/webp">
-            <img loading="lazy" src="img/about-me/about-me__image-2.jpg" width="600" height="776"
+            <source srcset="<?= ct()->get_static_url() ?>/img/about-me/about-me__image-2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/about-me/about-me__image-2.jpg" width="600" height="776"
               alt="Екатерина смотрит наверх на фоне листвы">
           </picture>
         </div>
@@ -162,7 +162,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -176,7 +176,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -192,7 +192,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -211,7 +211,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -225,7 +225,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -239,7 +239,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -253,7 +253,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -267,7 +267,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -284,13 +284,13 @@ ct()->header();
     <div class="review__controls">
       <div class="swiper-button-prev review__nav-button">
         <svg class="review__nav-button-icon" width="13" height="8">
-          <use xlink:href="img/sprite.svg#arrow-swiper-prev"></use>
+          <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#arrow-swiper-prev"></use>
         </svg>
       </div>
       <div class="swiper-pagination review__pagination"></div>
       <div class="swiper-button-next review__nav-button">
         <svg class="review__nav-button-icon" width="13" height="8">
-          <use xlink:href="img/sprite.svg#arrow-swiper-next"></use>
+          <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#arrow-swiper-next"></use>
         </svg>
       </div>
     </div>
@@ -306,12 +306,12 @@ ct()->header();
           <a class="direction__item" href="#">
             <h3 class="direction__item-title title-text">Аренда мебели
               <svg class="direction__item-icon" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </h3>
             <picture>
-              <source srcset="img/direction__item-image-1.webp" type="image/webp">
-              <img loading="lazy" src="img/direction__item-image-1.jpg" class="direction__item-image" width="1040"
+              <source srcset="<?= ct()->get_static_url() ?>/img/direction__item-image-1.webp" type="image/webp">
+              <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/direction__item-image-1.jpg" class="direction__item-image" width="1040"
                 height="248" alt="">
             </picture>
           </a>
@@ -323,12 +323,12 @@ ct()->header();
           <a class="direction__item" href="weddings.html">
             <h3 class="direction__item-title title-text">Свадьбы
               <svg class="direction__item-icon" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </h3>
             <picture>
-              <source srcset="img/direction__item-image-2.webp" type="image/webp">
-              <img loading="lazy" src="img/direction__item-image-2.jpg" class="direction__item-image" width="1040"
+              <source srcset="<?= ct()->get_static_url() ?>/img/direction__item-image-2.webp" type="image/webp">
+              <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/direction__item-image-2.jpg" class="direction__item-image" width="1040"
                 height="248" alt="">
             </picture>
           </a>
@@ -340,12 +340,12 @@ ct()->header();
           <a class="direction__item" href="#">
             <h3 class="direction__item-title title-text">Ивенты
               <svg class="direction__item-icon" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </h3>
             <picture>
-              <source srcset="img/direction__item-image-3.webp" type="image/webp">
-              <img loading="lazy" src="img/direction__item-image-3.jpg" class="direction__item-image" width="1040"
+              <source srcset="<?= ct()->get_static_url() ?>/img/direction__item-image-3.webp" type="image/webp">
+              <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/direction__item-image-3.jpg" class="direction__item-image" width="1040"
                 height="248" alt="">
             </picture>
           </a>
@@ -357,12 +357,12 @@ ct()->header();
           <a class="direction__item" href="#">
             <h3 class="direction__item-title title-text">Организация мероприятий под ключ
               <svg class="direction__item-icon" width="24" height="24">
-                <use xlink:href="img/sprite.svg#button-arrow"></use>
+                <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
               </svg>
             </h3>
             <picture>
-              <source srcset="img/direction__item-image-4.webp" type="image/webp">
-              <img loading="lazy" src="img/direction__item-image-4.jpg" class="direction__item-image" width="1040"
+              <source srcset="<?= ct()->get_static_url() ?>/img/direction__item-image-4.webp" type="image/webp">
+              <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/direction__item-image-4.jpg" class="direction__item-image" width="1040"
                 height="248" alt="">
             </picture>
           </a>
@@ -415,7 +415,7 @@ ct()->header();
           <button class="button btn-reset form__btn">
             <span class="button__text">Отправить заявку</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </button>
         </div>

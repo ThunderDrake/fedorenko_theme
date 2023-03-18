@@ -30,13 +30,13 @@ ct()->header();
     <div class="container onemore__container">
       <div class="onemore__picture-container">
         <picture>
-          <source srcset="img/onemore-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/onemore-pic1.jpg" class="onemore__pic1" width="424" height="688"
+          <source srcset="<?= ct()->get_static_url() ?>/img/onemore-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/onemore-pic1.jpg" class="onemore__pic1" width="424" height="688"
             alt="Катерина сидит">
         </picture>
         <picture>
-          <source srcset="img/onemore-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/condition-pic2.jpg" class="onemore__pic2" width="336" height="668"
+          <source srcset="<?= ct()->get_static_url() ?>/img/onemore-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic2.jpg" class="onemore__pic2" width="336" height="668"
             alt="Катерина сидит">
         </picture>
       </div>
@@ -88,13 +88,13 @@ ct()->header();
         </div>
         <div class="why-org__picture-container">
           <picture>
-            <source srcset="img/why-org-pic1.webp" type="image/webp">
-            <img loading="lazy" src="img/why-org-pic1.jpg" class="why-org__pic1" width="336" height="688"
+            <source srcset="<?= ct()->get_static_url() ?>/img/why-org-pic1.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/why-org-pic1.jpg" class="why-org__pic1" width="336" height="688"
               alt="Катерина сидит">
           </picture>
           <picture>
-            <source srcset="img/why-org-pic2.webp" type="image/webp">
-            <img loading="lazy" src="img/condition-pic2.jpg" class="why-org__pic2" width="424" height="668"
+            <source srcset="<?= ct()->get_static_url() ?>/img/why-org-pic2.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic2.jpg" class="why-org__pic2" width="424" height="668"
               alt="Катерина сидит">
           </picture>
         </div>
@@ -113,8 +113,8 @@ ct()->header();
 
         <div class="good-org__picture-container">
           <picture>
-            <source srcset="img/good-org-pic.webp" type="image/webp">
-            <img loading="lazy" src="img/good-org-pic.png" class="good-org__pic" width="776" height="1024"
+            <source srcset="<?= ct()->get_static_url() ?>/img/good-org-pic.webp" type="image/webp">
+            <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/good-org-pic.png" class="good-org__pic" width="776" height="1024"
               alt="Катерина сидит">
           </picture>
         </div>
@@ -183,7 +183,7 @@ ct()->header();
           <button class="button btn-reset form__btn">
             <span class="button__text">Отправить заявку</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </button>
         </div>

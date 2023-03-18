@@ -46,8 +46,8 @@ ct()->header();
   <section class="conditions-pcg">
     <div class="container conditions-pcg__container">
       <picture>
-        <source srcset="img/condition-pic1.webp" type="image/webp">
-        <img loading="lazy" src="img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
+        <source srcset="<?= ct()->get_static_url() ?>/img/condition-pic1.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
           alt="красивые столы">
       </picture>
       <div class="conditions-pcg__flex-title">
@@ -57,7 +57,7 @@ ct()->header();
         <a href="" class="team__button button button--no-fill">
           <span class="button__text">каталог мебели</span>
           <svg class="button__arrow" width="24" height="24">
-            <use xlink:href="img/sprite.svg#button-arrow"></use>
+            <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
           </svg>
         </a>
       </div>
@@ -314,8 +314,8 @@ ct()->header();
   <section class="conditions-pcg">
     <div class="container conditions-pcg__container">
       <picture>
-        <source srcset="img/condition-pic1.webp" type="image/webp">
-        <img loading="lazy" src="img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
+        <source srcset="<?= ct()->get_static_url() ?>/img/condition-pic1.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
           alt="красивые столы">
       </picture>
       <div class="conditions-pcg__flex-title">
@@ -325,7 +325,7 @@ ct()->header();
         <a href="" class="team__button button button--no-fill">
           <span class="button__text">каталог мебели</span>
           <svg class="button__arrow" width="24" height="24">
-            <use xlink:href="img/sprite.svg#button-arrow"></use>
+            <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
           </svg>
         </a>
       </div>
@@ -582,8 +582,8 @@ ct()->header();
   <section class="conditions-pcg">
     <div class="container conditions-pcg__container">
       <picture>
-        <source srcset="img/condition-pic1.webp" type="image/webp">
-        <img loading="lazy" src="img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
+        <source srcset="<?= ct()->get_static_url() ?>/img/condition-pic1.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
           alt="красивые столы">
       </picture>
       <div class="conditions-pcg__flex-title">
@@ -593,7 +593,7 @@ ct()->header();
         <a href="" class="team__button button button--no-fill">
           <span class="button__text">каталог мебели</span>
           <svg class="button__arrow" width="24" height="24">
-            <use xlink:href="img/sprite.svg#button-arrow"></use>
+            <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
           </svg>
         </a>
       </div>
@@ -850,8 +850,8 @@ ct()->header();
   <section class="conditions-pcg">
     <div class="container conditions-pcg__container">
       <picture>
-        <source srcset="img/condition-pic1.webp" type="image/webp">
-        <img loading="lazy" src="img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
+        <source srcset="<?= ct()->get_static_url() ?>/img/condition-pic1.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/condition-pic1.png" class="conditions-pcg__pic" width="1575" height="400"
           alt="красивые столы">
       </picture>
       <div class="conditions-pcg__flex-title">
@@ -861,7 +861,7 @@ ct()->header();
         <a href="" class="team__button button button--no-fill">
           <span class="button__text">каталог мебели</span>
           <svg class="button__arrow" width="24" height="24">
-            <use xlink:href="img/sprite.svg#button-arrow"></use>
+            <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
           </svg>
         </a>
       </div>

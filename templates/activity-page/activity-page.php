@@ -38,24 +38,24 @@ ct()->header();
       </h2>
       <div class="blinding__img-block">
         <picture class="blinding__pic1">
-          <source srcset="img/blinding-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/blinding-pic1.png" class="blinding__pic" width="512" height="512" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/blinding-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/blinding-pic1.png" class="blinding__pic" width="512" height="512" alt="клуб 500">
         </picture>
         <picture class="blinding__pic2">
-          <source srcset="img/blinding-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/blinding-pic2.png" class="blinding__pic" width="512" height="524" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/blinding-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/blinding-pic2.png" class="blinding__pic" width="512" height="524" alt="клуб 500">
         </picture>
         <picture class="blinding__pic3">
-          <source srcset="img/blinding-pic3.webp" type="image/webp">
-          <img loading="lazy" src="img/blinding-pic3.png" class="blinding__pic" width="512" height="336" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/blinding-pic3.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/blinding-pic3.png" class="blinding__pic" width="512" height="336" alt="клуб 500">
         </picture>
         <picture class="blinding__pic4">
-          <source srcset="img/blinding-pic4.webp" type="image/webp">
-          <img loading="lazy" src="img/blinding-pic4.png" class="blinding__pic" width="512" height="424" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/blinding-pic4.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/blinding-pic4.png" class="blinding__pic" width="512" height="424" alt="клуб 500">
         </picture>
         <picture class="blinding__pic5">
-          <source srcset="img/blinding-pic5.webp" type="image/webp">
-          <img loading="lazy" src="img/blinding-pic5.png" class="blinding__pic" width="512" height="864" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/blinding-pic5.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/blinding-pic5.png" class="blinding__pic" width="512" height="864" alt="клуб 500">
         </picture>
       </div>
 
@@ -69,12 +69,12 @@ ct()->header();
       </h2>
 
       <picture class="clab__pic1">
-        <source srcset="img/clab-pic1.webp" type="image/webp">
-        <img loading="lazy" src="img/clab-pic1.png" class="clab__pic" width="1575" height="1040" alt="клуб 500">
+        <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic1.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic1.png" class="clab__pic" width="1575" height="1040" alt="клуб 500">
       </picture>
       <picture class="clab__pic2">
-        <source srcset="img/clab-pic2.webp" type="image/webp">
-        <img loading="lazy" src="img/clab-pic2.png" class="clab__pic" width="1575" height="1040" alt="клуб 500">
+        <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic2.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic2.png" class="clab__pic" width="1575" height="1040" alt="клуб 500">
       </picture>
     </div>
   </section>
@@ -105,19 +105,19 @@ ct()->header();
           <a href="" class="activity-pcg__btn button btn-reset">
             <span class="button__text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
       </div>
       <div class="activity-pcg__img-block">
         <picture class="activity-pcg__pic1">
-          <source srcset="img/clab-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
         <picture class="activity-pcg__pic2">
-          <source srcset="img/clab-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
       </div>
     </div>
@@ -149,19 +149,19 @@ ct()->header();
           <a href="" class="activity-pcg__btn button btn-reset">
             <span class="button__text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
       </div>
       <div class="activity-pcg__img-block">
         <picture class="activity-pcg__pic1">
-          <source srcset="img/clab-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
         <picture class="activity-pcg__pic2">
-          <source srcset="img/clab-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
       </div>
     </div>
@@ -193,19 +193,19 @@ ct()->header();
           <a href="" class="activity-pcg__btn button btn-reset">
             <span class="button__text">в корзину</span>
             <svg class="button__arrow" width="24" height="24">
-              <use xlink:href="img/sprite.svg#button-arrow"></use>
+              <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
           </a>
         </div>
       </div>
       <div class="activity-pcg__img-block">
         <picture class="activity-pcg__pic1">
-          <source srcset="img/clab-pic1.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic1.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
         <picture class="activity-pcg__pic2">
-          <source srcset="img/clab-pic2.webp" type="image/webp">
-          <img loading="lazy" src="img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
+          <source srcset="<?= ct()->get_static_url() ?>/img/clab-pic2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/clab-pic2.png" class="activity-pcg__pic" width="776" height="320" alt="клуб 500">
         </picture>
       </div>
     </div>
@@ -213,8 +213,8 @@ ct()->header();
 
   <div class="container activity__container">
     <picture class="activity__picture">
-      <source srcset="img/activity-pic.webp" type="image/webp">
-      <img loading="lazy" src="img/activity-pic.png" class="activity__piciture1" width="1575" height="1043"
+      <source srcset="<?= ct()->get_static_url() ?>/img/activity-pic.webp" type="image/webp">
+      <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/activity-pic.png" class="activity__piciture1" width="1575" height="1043"
         alt="Красивейшая свадьба">
     </picture>
   </div>
@@ -228,7 +228,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -242,7 +242,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -258,7 +258,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -277,7 +277,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -291,7 +291,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -305,7 +305,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -319,7 +319,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -333,7 +333,7 @@ ct()->header();
           <div class="swiper-slide review__slider-slide">
             <div class="review__item">
               <div class="review__item-image-wrapper">
-                <img loading="lazy" src="img/review/review-svg.svg" class="review__item-image" width="72" height="72"
+                <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/review/review-svg.svg" class="review__item-image" width="72" height="72"
                   alt="Логтип компании">
               </div>
               <div class="review__item-names">Татьяна и Анатолий Казловы</div>
@@ -350,13 +350,13 @@ ct()->header();
     <div class="review__controls">
       <div class="swiper-button-prev review__nav-button">
         <svg class="review__nav-button-icon" width="13" height="8">
-          <use xlink:href="img/sprite.svg#arrow-swiper-prev"></use>
+          <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#arrow-swiper-prev"></use>
         </svg>
       </div>
       <div class="swiper-pagination review__pagination"></div>
       <div class="swiper-button-next review__nav-button">
         <svg class="review__nav-button-icon" width="13" height="8">
-          <use xlink:href="img/sprite.svg#arrow-swiper-next"></use>
+          <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#arrow-swiper-next"></use>
         </svg>
       </div>
     </div>
@@ -366,19 +366,19 @@ ct()->header();
     <div class="container ceremony__container">
       <div class="ceremony__flex">
         <picture class="ceremony__piciture1">
-          <source srcset="img/ceremony1.webp" type="image/webp">
-          <img loading="lazy" src="img/ceremony1.png" class="ceremony__piciture" width="952" height="512"
+          <source srcset="<?= ct()->get_static_url() ?>/img/ceremony1.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/ceremony1.png" class="ceremony__piciture" width="952" height="512"
             alt="Красивейшая свадьба">
         </picture>
         <picture class="ceremony__piciture2">
-          <source srcset="img/ceremony2.webp" type="image/webp">
-          <img loading="lazy" src="img/ceremony2.png" class="ceremony__piciture" width="952" height="424"
+          <source srcset="<?= ct()->get_static_url() ?>/img/ceremony2.webp" type="image/webp">
+          <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/ceremony2.png" class="ceremony__piciture" width="952" height="424"
             alt="Красивейшая свадьба">
         </picture>
       </div>
       <picture class="ceremony__piciture3">
-        <source srcset="img/ceremony3.webp" type="image/webp">
-        <img loading="lazy" src="img/ceremony3.png" class="ceremony__piciture" width="600" height="952"
+        <source srcset="<?= ct()->get_static_url() ?>/img/ceremony3.webp" type="image/webp">
+        <img loading="lazy" src="<?= ct()->get_static_url() ?>/img/ceremony3.png" class="ceremony__piciture" width="600" height="952"
           alt="Красивейшая свадьба">
       </picture>
     </div>
