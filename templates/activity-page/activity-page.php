@@ -28,7 +28,7 @@ ct()->header();
 
   <div class="container">
     <video controls width="1575" height="900" class="activity__video">
-      <source src="test-video.mp4">
+      <source src="<?= ct()->get_static_url() ?>/test-video.mp4">
     </video>
   </div>
   <section class="blinding">
