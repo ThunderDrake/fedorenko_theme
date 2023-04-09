@@ -7,6 +7,7 @@ ct()->header();
 ?>
 
 <main class="main">
+<?php ct()->inner-header(); ?>
   <div class="inner-header">
     <div class="inner-header__container container">
       <h1 class="inner-header__title title-text">О нас</h1>
@@ -25,7 +26,7 @@ ct()->header();
 
     </div>
   </div>
-
+  <?php ct()->team(); ?>
   <section class="team">
     <div class="container team__container">
 
@@ -98,7 +99,7 @@ ct()->header();
       </div>
     </div>
   </section>
-
+  <?php ct()->about-me(); ?>
   <section class="about-me">
     <div class="about-me__container container">
       <h2 class="about-me__title title-text">Нам доверяют,<br>
@@ -151,7 +152,7 @@ ct()->header();
       </div>
     </div>
   </section>
-
+  <?php ct()->review(); ?>
   <section class="review">
     <div class="review__container container">
       <h2 class="review__title title-text">Что говорят клиенты</h2>
@@ -295,7 +296,7 @@ ct()->header();
       </div>
     </div>
   </section>
-
+  <?php ct()->direction(); ?>
   <section class="direction">
     <div class="container direction__container">
       <h2 class="direction__title title-text">Направления:</h2>
@@ -374,7 +375,7 @@ ct()->header();
     </div>
 
   </section>
-
+  <?php ct()->form(); ?>
   <section class="form-section">
     <div class="form-section__container container">
       <div class="form-section__header">
@@ -417,14 +418,15 @@ ct()->header();
             <svg class="button__arrow" width="24" height="24">
               <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
             </svg>
+
           </button>
         </div>
       </form>
     </div>
   </section>
 
+
 </main>
 
-<?php
 
-ct()->footer();
+<?php ct()->footer(); ?>
