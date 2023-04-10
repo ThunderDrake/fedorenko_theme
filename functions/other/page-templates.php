@@ -12,7 +12,8 @@
 function add_templates_to_dropdown( $templates ) {
 
 	// выбор шаблона в атрибутах
-	// $templates['templates/page-slug/page-slug.php'] = 'Пример страницы';
+	$templates['templates/about-page/about-page.php'] = 'Шаблон страницы О нас';
+	$templates['templates/contacts-page/contacts-page.php'] = 'Шаблон страницы Контакты';
 
 	return $templates;
 }
