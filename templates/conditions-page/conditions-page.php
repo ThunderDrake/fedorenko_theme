@@ -26,23 +26,6 @@ ct()->header();
     </div>
   </div>
 
-  <section class="breadcrumbs">
-    <div class="breadcrumbs__container container">
-      <h1 class="breadcrumbs__title title-text">
-        готовое решение свадеб
-      </h1>
-      <nav class="breadcrumbs__nav">
-        <a href="index.html" class="breadcrumbs__index small-text">главная</a>
-        <div class="breadcrumbs__dash small-text">
-           —
-        </div>
-        <div class="breadcrumbs__wedd small-text">
-          Свадьбы
-        </div>
-      </nav>
-    </div>
-  </section>
-
   <section class="conditions-pcg">
     <div class="container conditions-pcg__container">
       <picture>
