@@ -4,8 +4,10 @@
 */
 
 ct()->header();
-ct()->innerheader();
+
 ?>
+<?= ct()->template('/parts/inner-header.php') ?>
+
 
   <div class="container">
     <video controls width="1575" height="900" class="activity__video">
@@ -13,9 +15,10 @@ ct()->innerheader();
     </video>
   </div>
 
-  <?php ct()->blinding(); ?>
-
-  <!-- много activity pcg -->\
+  <?= ct()->template('/activity-page/parts/activity-page__blinding.php') ?>
+  <?= ct()->template('/activity-page/parts/activity-page__activity-pcg.php') ?>
+  <?= ct()->template('/activity-page/parts/activity-page__activity-pcg.php') ?>
+  <?= ct()->template('/activity-page/parts/activity-page__activity-pcg.php') ?>
 
 
   <div class="container activity__container">
@@ -25,9 +28,10 @@ ct()->innerheader();
         alt="Красивейшая свадьба">
     </picture>
   </div>
-  <?php
-  ct()->review();
-  ct()->ceremony(); ?>
+
+  <?= ct()->template('/parts/review.php') ?>
+  <?= ct()->template('/activity-page/parts/activity-page__ceremony.php') ?>
+
 
 
 </main>
