@@ -24,3 +24,4 @@ ct()->header();
 <?php
 
 ct()->footer();
+?>
