@@ -7,12 +7,20 @@ ct()->header();
 ?>
 
 <main class="main">
-  <?php ct()->innerheader(); ?>
-  <?php ct()->team(); ?>
-  <?php ct()->aboutme(); ?>
-  <?php ct()->review(); ?>
-  <?php ct()->direction(); ?>
-  <?php ct()->form(); ?>
+  <?= ct()->template('/parts/inner-header.php') ?>
+
+  <?= ct()->template('/about-page/parts/about-page__team.php') ?>
+
+  <?= ct()->template('/about-page/parts/about-page__about-me.php') ?>
+
+  <?= ct()->template('/parts/review.php') ?>
+
+  <?= ct()->template('/parts/direction.php') ?>
+
+  <?= ct()->template('/parts/form.php') ?>
+
 </main>
 
-<?php ct()->footer(); ?>
+<?php
+
+ct()->footer();
