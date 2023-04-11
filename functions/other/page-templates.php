@@ -16,7 +16,9 @@ function add_templates_to_dropdown( $templates ) {
 	$templates['templates/contacts-page/contacts-page.php'] = 'Шаблон страницы Контакты';
 	$templates['templates/conditions-page/conditions-page.php'] = 'Шаблон страницы Условия работы';
 	$templates['templates/events-page/events-page.php'] = 'Шаблон страницы Организация мероприятий под ключ';
-
+  $templates['templates/weddings-page/weddings-page.php'] = 'Шаблон страницы Свадьбы';
+  $templates['templates/activity-page/activity-page.php'] = 'Шаблон страницы Мероприятия';
+  $templates['templates/home-page/home-page.php'] = 'Шаблон Главной страницы';
 	return $templates;
 }
 
