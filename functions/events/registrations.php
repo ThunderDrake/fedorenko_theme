@@ -30,7 +30,7 @@ add_action( 'init', function () {
 		'show_in_rest'     => true,
 		'show_ui'          => true,
 		'show_in_menu'     => true,
-		'template_archive' => '/templates/events-page/events-page.php',
+		'template_archive' => '/templates/activity-page/activity-page.php',
 	] );
 
 }, 9 );

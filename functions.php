@@ -32,5 +32,4 @@ require __DIR__ . '/functions/other/module.php';
 require __DIR__ . '/functions/home-page/module.php';
 require __DIR__ . '/functions/weddings/module.php';
 require __DIR__ . '/functions/events/module.php';
-require __DIR__ . '/functions/activity/module.php';
 require __DIR__ . '/functions/reviews/module.php';
