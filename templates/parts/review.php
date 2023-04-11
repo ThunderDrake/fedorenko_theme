@@ -1,3 +1,14 @@
+<?php
+/**
+ * Шаблон отзывов
+ */
+
+$review_list = get_field('review_list');
+
+if(!$review_list) {
+  return;
+}
+?>
 <section class="review">
     <div class="review__container container">
       <h2 class="review__title title-text">Что говорят клиенты</h2>
