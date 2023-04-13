@@ -1,3 +1,12 @@
+<?php
+/**
+шаблон головы(хедера)
+
+*/
+$whatsapp = get_field('whatsapp', 'option');
+$telegram = get_field('telegram', 'option');
+$phone_number = get_field('phone_number' , 'option');
+ ?>
 <!DOCTYPE html>
 <html lang="ru" class="page">
 
@@ -65,9 +74,43 @@
           <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
         </svg>
       </a>
-      <div class="burger-menu__footer">
-        <a class="burger-menu__footer-link link-underline" href="/">Telegram</a>
-        <a class="burger-menu__footer-link link-underline" href="/">WhatsApp</a>
-        <a class="burger-menu__footer-link link-underline" href="tel:+7(963)163-27-03">+7(963)163-27-03</a>
+      <div class="burger-menu__footer-link link-underline">
+      <?php
+        if ($telegram):
+           ?>
+
+          <a href="<?php $telegram ?>" class="burger-menu__footer-link link-underline">Telegram</a>
+          <?php
+
+        else:
+          ?>
+          <a href="#" class="burger-menu__footer-link link-underline">Telegram</a>
+          <?php
+          endif;
+        ?>
+        <?php
+        if ($whatsapp):
+           ?>
+          <a href="<?php echo $whatsapp ?>" class="burger-menu__footer-link link-underline">Whatsapp</a>
+          <?php
+        else:
+          ?>
+          <a href="#" class="burger-menu__footer-link link-underline">Whatsapp</a>
+          <?php
+          endif;
+        ?>
+        <?php
+        if ($phone_number):
+           ?>
+          <a href="tel:<?php echo $phone_number ?>" class="burger-menu__footer-link link-underline"><?php echo $phone_number ?></a>
+
+          <?php
+        else:
+          ?>
+          <a href="tel:+7(963)163-27-03" class="burger-menu__footer-link link-underline">+7(963)163-27-03</a>
+          <?php
+          endif;
+        ?>
+
       </div>
     </div>

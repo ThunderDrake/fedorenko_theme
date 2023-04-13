@@ -1,3 +1,14 @@
+<?php
+/**
+шаблон подвала
+
+*/
+$whatsapp = get_field('whatsapp', 'option');
+$telegram = get_field('telegram', 'option');
+$phone_number = get_field('phone_number' , 'option');
+ ?>
+
+
 <footer class="footer">
   <div class="footer__image">
     <div class="container">
@@ -14,9 +25,43 @@
     <div class="container">
       <div class="footer__grid">
         <div class="footer-empty"></div>
-        <a href="#" class="footer__contacts-link link-underline">Telegram</a>
-        <a href="#" class="footer__contacts-link link-underline">Whatsapp</a>
-        <a href="tel:+7(963)163-27-03" class="footer__contacts-link link-underline">+7(963)163-27-03</a>
+        <?php
+        if ($telegram):
+           ?>
+
+          <a href="<?php $telegram ?>" class="footer__contacts-link link-underline">Telegram</a>
+          <?php
+
+        else:
+          ?>
+          <a href="#" class="footer__contacts-link link-underline">Telegram</a>
+          <?php
+          endif;
+        ?>
+        <?php
+        if ($whatsapp):
+           ?>
+          <a href="<?php echo $whatsapp ?>" class="footer__contacts-link link-underline">Whatsapp</a>
+          <?php
+        else:
+          ?>
+          <a href="#" class="footer__contacts-link link-underline">Whatsapp</a>
+          <?php
+          endif;
+        ?>
+        <?php
+        if ($phone_number):
+           ?>
+          <a href="tel:<?php echo $phone_number ?>" class="footer__contacts-link link-underline"><?php echo $phone_number ?></a>
+
+          <?php
+        else:
+          ?>
+          <a href="tel:+7(963)163-27-03" class="footer__contacts-link link-underline">+7(963)163-27-03</a>
+          <?php
+          endif;
+        ?>
+
       </div>
     </div>
   </div>
