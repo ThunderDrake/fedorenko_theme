@@ -13,6 +13,7 @@ ct()->header();
 
 <?= ct()->template('/parts/review.php') ?>
 <?= ct()->template('/parts/gallery.php') ?>
+<?= ct()->template('/home-page/parts/home-page__commerc.php') ?>
 
 <?= ct()->template('/parts/form.php') ?>
 

@@ -1,11 +1,10 @@
 <?php
 /**
-шаблон головы(хедера)
-
+* шаблон головы(хедера)
 */
-$whatsapp = get_field('whatsapp', 'option');
-$telegram = get_field('telegram', 'option');
-$phone_number = get_field('phone_number' , 'option');
+$whatsapp = get_whatsapp_link();
+$telegram = get_telegram_link();
+$phone_number = get_phone_number();
  ?>
 <!DOCTYPE html>
 <html lang="ru" class="page">
@@ -68,49 +67,21 @@ $phone_number = get_field('phone_number' , 'option');
           <li class="burger-menu__nav-item"><a class="burger-menu__nav-link main-link" href="#">Контакты</a></li>
         </ul>
       </nav>
-      <a href="/" class="burger-menu__button button button--no-fill btn-reset">
+      <button class="burger-menu__button button button--no-fill btn-reset" data-graph-path="modal-form">
         <span class="button__text">Оставить заявку</span>
         <svg class="button__arrow" width="24" height="24">
           <use xlink:href="<?= ct()->get_static_url() ?>/img/sprite.svg#button-arrow"></use>
         </svg>
-      </a>
-      <div class="burger-menu__footer-link link-underline">
-      <?php
-        if ($telegram):
-           ?>
-
-          <a href="<?php $telegram ?>" class="burger-menu__footer-link link-underline">Telegram</a>
-          <?php
-
-        else:
-          ?>
-          <a href="#" class="burger-menu__footer-link link-underline">Telegram</a>
-          <?php
-          endif;
-        ?>
-        <?php
-        if ($whatsapp):
-           ?>
-          <a href="<?php echo $whatsapp ?>" class="burger-menu__footer-link link-underline">Whatsapp</a>
-          <?php
-        else:
-          ?>
-          <a href="#" class="burger-menu__footer-link link-underline">Whatsapp</a>
-          <?php
-          endif;
-        ?>
-        <?php
-        if ($phone_number):
-           ?>
-          <a href="tel:<?php echo $phone_number ?>" class="burger-menu__footer-link link-underline"><?php echo $phone_number ?></a>
-
-          <?php
-        else:
-          ?>
-          <a href="tel:+7(963)163-27-03" class="burger-menu__footer-link link-underline">+7(963)163-27-03</a>
-          <?php
-          endif;
-        ?>
-
+      </button>
+      <div class="burger-menu__footer">
+        <?php if ($telegram): ?>
+          <a href="<?= $telegram ?>" class="burger-menu__footer-link link-underline">Telegram</a>
+        <?php endif; ?>
+        <?php if ($whatsapp): ?>
+          <a href="<?= $whatsapp ?>" class="burger-menu__footer-link link-underline">Whatsapp</a>
+        <?php endif; ?>
+        <?php if ($phone_number): ?>
+          <a href="tel:<?= cth()->format_phone($phone_number) ?>" class="burger-menu__footer-link link-underline"><?= $phone_number ?></a>
+        <?php endif; ?>
       </div>
     </div>

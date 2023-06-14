@@ -4,11 +4,11 @@
     "fields": [
         {
             "key": "field_6437c26f47da5",
-            "label": "Телеграм",
+            "label": "Ссылка на Telegram",
             "name": "telegram",
             "aria-label": "",
             "type": "link",
-            "instructions": "",
+            "instructions": "Укажите ссылку на telegram для связи",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -20,11 +20,11 @@
         },
         {
             "key": "field_6437c3bd47da6",
-            "label": "whatsapp",
+            "label": "WhatsApp",
             "name": "whatsapp",
             "aria-label": "",
             "type": "link",
-            "instructions": "",
+            "instructions": "Укажите ссылку на чат WhatsApp\r\nhttps:\/\/wa.me\/\"номер\", где \"номер\" — это ваш полный номер телефона международного формата, привязанный к WhatsApp.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -40,7 +40,7 @@
             "name": "phone_number",
             "aria-label": "",
             "type": "text",
-            "instructions": "",
+            "instructions": "Укажите мобильный номер телефона для связи с менеджером",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -48,9 +48,9 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "+7( ) - -",
+            "default_value": "",
             "maxlength": 16,
-            "placeholder": "",
+            "placeholder": "+7( ---) - -",
             "prepend": "",
             "append": ""
         }
@@ -73,5 +73,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1681380471
+    "modified": 1686781411
 }

@@ -15,6 +15,7 @@ if( have_rows('faq', 'option') ) {
   }
 }
 ?>
+<?= ct()->template('/parts/form.php') ?>
 </main>
 
 <?php

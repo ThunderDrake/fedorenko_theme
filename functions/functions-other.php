@@ -543,3 +543,30 @@ function get_param_strings_for_filter( $key ) {
 function get_param_for_filter( $key, $default = '' ) {
 	return $_GET[ $key ] ?? $default;
 }
+
+/**
+ * Возвращает ссылку на WhatsApp из админ-части
+ *
+ * @return string
+ */
+function get_whatsapp_link() {
+  return get_field('whatsapp', 'option');
+}
+
+/**
+ * Возвращает ссылку на Telegram из админ-части
+ *
+ * @return string
+ */
+function get_telegram_link() {
+  return get_field('telegram', 'option');
+}
+
+/**
+ * Возвращает номер телефона для связи из админ-части
+ *
+ * @return string
+ */
+function get_phone_number() {
+  return get_field('phone_number', 'option');
+}

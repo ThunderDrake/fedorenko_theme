@@ -1,6 +1,11 @@
 <section class="team">
     <div class="container team__container">
-
+    <div class="team__flex-title">
+      <h2 class="team__title title-text">
+        Команда Fedorenko Decor — <br>
+        это топовые профессионалы города
+      </h2>
+    </div>
       <div class="team__content">
         <div class="team__picture-block">
           <picture>
